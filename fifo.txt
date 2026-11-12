@@ -1,0 +1,48 @@
+
+PRINCIPIO FIFO
+
+FIFO significa First In, First Out, que en español significa primero en entrar, primero en salir.
+
+Es un principio utilizado en las estructuras de datos conocidas como colas. Su funcionamiento consiste en almacenar elementos en el orden en que llegan y retirarlos respetando ese mismo orden.
+
+Una cola tiene dos operaciones principales:
+
+INSERTAR:
+Permite agregar un nuevo elemento al final de la cola.
+
+ELIMINAR:
+Permite retirar el primer elemento que ingreso a la cola.
+
+EXPLICACION DEL CODIGO
+
+El programa representa el funcionamiento de una cola utilizando la libreria queue de C++.
+
+Primero se crea una cola que almacenara cuatro entradas ingresadas por el usuario.
+
+Mediante un ciclo for se solicitan cuatro datos y se utiliza la funcion push para agregarlos a la cola.
+
+Despues se muestra el contenido de la cola utilizando una copia de los datos originales. Para consultar el primer elemento se utiliza front.
+
+Finalmente, mediante un ciclo while se procesan las entradas. La funcion front permite consultar el primer elemento y la funcion pop lo elimina de la cola.
+
+El ciclo continua mientras existan elementos dentro de la estructura.
+
+Al finalizar, todos los elementos han salido siguiendo el orden en que fueron ingresados.
+
+EJEMPLO
+
+Si el usuario ingresa los siguientes datos:
+
+Entrada 1: A
+Entrada 2: B
+Entrada 3: C
+Entrada 4: D
+
+El orden de salida sera:
+
+Sale: A
+Sale: B
+Sale: C
+Sale: D
+
+Esto demuestra el principio FIFO: el primer elemento que ingresa es el primero que sale.
